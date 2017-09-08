@@ -17,8 +17,8 @@
 		<div class="buttondiv"><asp:Button ID="RunButton" runat="server" Height="46px" OnClick="Run_Button_Click" Text="Populate Bracket" Width="164px"/></div>
 		<div class="buttondiv"><asp:Button ID="ClearButton" runat="server" Height="46px" OnClick="Clear_Button_Click" Text="Clear All" Width="164px"/></div>
 	<div>
-		<a href="#tournament1">EAST  </a><a href="#tournament2">MIDWEST  </a><a href="#tournament3">SOUTH  </a><a href="#tournament4">WEST  </a>
-		<a href="#tournament5">FINAL FOUR  </a>
+		<button class="divname"><a href="#tournament1">EAST  </a></button><button class="divname"><a href="#tournament2">MIDWEST  </a></button><button class="divname"><a href="#tournament3">SOUTH  </a></button><button class="divname"><a href="#tournament4">WEST  </a></button>
+		<button class="divname"><a href="#tournament5">FINAL FOUR  </a></button>
 	</div>
 	<div>
 		<br/>

@@ -43,6 +43,7 @@ public partial class _Default : System.Web.UI.Page
         Populateround6(teamName, teamElo, rnd);
         Populateround7(teamName, teamElo, rnd);
         RunButton.Text = "RESET";
+        global = 9;
     }
     public int Eloconversion(int elo1, int elo2)
     {

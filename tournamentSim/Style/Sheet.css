@@ -5,6 +5,11 @@
 h2 {
     text-align: center;
 }
+button.divname {
+    font-size: 20px;
+    width: 16%;
+    margin-left: 3%;
+}
 /*
  *  Flex Layout Specifics
 */
